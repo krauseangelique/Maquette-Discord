@@ -14,11 +14,13 @@ body{
     
     
   }
-  
+  */
   header .container img{
-     
+    background-image : url(https://raw.githubusercontent.com/sirius-school/metiers-numeriques/main/1-html-css-debutant/assets/discord/logo-discord.png);
+    width: 100px;
+    text-align: center; 
   }
-  
+  /*
   nav{
     
   }
