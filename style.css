@@ -1,13 +1,8 @@
-/*
-
-le logo fait 100px de large
-
-pour ce qui est des marges et padding, utilise les valeurs que tu veux tant que ça ressemble un minimum à ce qu'il y a sur les screenshots
-*/
-
 body{
     background-color: #0f0e17; /* color: black-blue */
     color: #fffffe;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
   }
   /*
   header .container{
@@ -24,34 +19,67 @@ body{
   nav{
     
   }
+  */
   
   nav ul {
+    display: flex;
+    justify-content: center;
+    
+    
      
   }
   
   nav li {
+    list-style-type: none;
+    text-transform: uppercase;
+    font-weight:bold;
+    padding-right: 15px;
+    /*font-family: Arial, Helvetica, sans-serif; */
+     
+  }
+ 
+  nav li a {
+    text-decoration: none;
+    color: #fffffe;
+
      
   }
   
-  nav li a {
-     
-  }
-  */
   section{
     background-color: #fffffe;
     max-width: 790px;
+    text-align: center;
+    margin: 15px auto;
+    border: 1px solid rgba(255,255,255,.9); /* transparent */
+    border-radius: 10px;
+
+
+  }
+  section:nth-of-type(2){
+    margin: 5px auto 150px auto;
+  }
+
+  section img{
+    background-image: url(https://raw.githubusercontent.com/sirius-school/metiers-numeriques/105398fc1ba6231e054fb25a327131a6acd8f539/1-html-css-debutant/assets/discord/illu-discord.svg);
+    width: 300px;
+    text-align: center;
   }
   
   h2{
     color: #ff8906;
+    text-transform: uppercase;
+
   }
-/*
+
   p{
-   
+    color:#0f0e17;
   }
-*/
+
   
   footer{
-    /* insère ton style ici */
     background-color: #e53170; /* color: rosa */
+    text-align: center;
+   
+    padding: 30px 0px;
+    max-width: 790px;
   }
