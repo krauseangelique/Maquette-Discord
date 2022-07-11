@@ -1,5 +1,5 @@
 # Maquette-Discord
-## html et CSS
-Projet Sirius concernant le CSS 
-et l'utilisation de Github et Github Desktop (le petit chat)
+## HTML et CSS
+Projet Sirius Maquette Discord concernant leS selecteurs CSS et les balises HTML 
+plus utilisation de Github et Github Desktop (le petit chat)
 
