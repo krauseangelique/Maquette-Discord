@@ -1,13 +1,25 @@
 body{
+  /* Pour s'assurer que le design du site adopte la taille du contenu : 
+  Nous allons devoir retirer la marge par défaut de body, puis nous assurer que sa hauteur soit au moins égale à la hauteur de la fenêtre du navigateur (ou plus précisément, la fenêtre de rendu du navigateur, appelé viewport). 
+  Pour se faire : 
+  - flex sur le body
+  - flex: 1 sur le main
+
+  Edit by: https://www.emmanuelbeziat.com/blog/un-site-qui-prend-toute-la-hauteur-disponible/
+
+  */
+    margin: 0;
+    min-height: 100vh;
     background-color: #0f0e17; /* color: black-blue */
     color: #fffffe;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
   }
   /*
   header .container{
-    
-    
+      
   }
   */
   header .container img{
@@ -23,28 +35,24 @@ body{
   
   nav ul {
     display: flex;
-    justify-content: center;
-    
-    
-     
+    justify-content: center;   
   }
   
   nav li {
     list-style-type: none;
     text-transform: uppercase;
     font-weight:bold;
-    padding-right: 15px;
-    /*font-family: Arial, Helvetica, sans-serif; */
-     
+    padding-right: 15px;   
   }
  
   nav li a {
     text-decoration: none;
-    color: #fffffe;
-
-     
+    color: #fffffe;  
   }
   
+  main{
+    flex: 1;
+  }
   section{
     background-color: #fffffe;
     max-width: 790px;
@@ -78,8 +86,8 @@ body{
   
   footer{
     background-color: #e53170; /* color: rosa */
-    text-align: center;
-   
-    padding: 30px 0px;
+    padding: 30px 5px;
     max-width: 790px;
+    margin: auto;
   }
+ 
